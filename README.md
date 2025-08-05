@@ -1,5 +1,4 @@
 # Task 1 - 🌐 Responsive Landing Page Implementation
-
 ### 🧱 Structure & Layout
 - Built with **semantic HTML5** elements: `header`, `main`, `section`, and `footer`
 - Utilized **CSS Grid** for the overall page structure and **Flexbox** for precise component alignment
