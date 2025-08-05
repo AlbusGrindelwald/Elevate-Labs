@@ -1,4 +1,4 @@
-## 🌐 Responsive Landing Page Implementation
+## Task 1 - 🌐 Responsive Landing Page Implementation
 
 ### 🧱 Structure & Layout
 - Built with **semantic HTML5** elements: `header`, `main`, `section`, and `footer`
@@ -30,3 +30,71 @@
 - **CSS Grid**
 - **Media Queries**
 - **CSS Animations**
+
+# Task 2 - 📝 To-Do List Web Application
+
+A modern, responsive **To-Do List Web App** built using vanilla **HTML**, **CSS**, and **JavaScript**, featuring a vibrant, gradient-based design and real-time user interaction.
+
+---
+
+## 🚀 Overview
+
+This project is a fully functional task management tool with a sleek interface and smooth user experience. It allows users to add, complete, and delete tasks, while saving progress across sessions using `localStorage`.
+
+---
+
+## 🌟 Key Features
+
+- ✅ **Dynamic Task Management**  
+  Add, complete, and delete tasks with real-time DOM updates.
+
+- 🎨 **Visual Feedback**  
+  Smooth animations, hover effects, and color-coded task states.
+
+- 💾 **Persistent Storage**  
+  Tasks are stored in `localStorage` and restored on page reload.
+
+- 📊 **Statistics Dashboard**  
+  Live counters for total, completed, and pending tasks.
+
+- 📱 **Responsive Design**  
+  Optimized for desktop, tablet, and mobile devices.
+
+---
+
+## 🛠️ Technical Implementation
+
+- **HTML**  
+  Semantic structure with input fields, task containers, and statistics display.
+
+- **CSS**  
+  Modern design using CSS Grid/Flexbox, gradients, animations, and media queries.
+
+- **JavaScript**  
+  ES6 class-based architecture with:
+  - Event handling
+  - DOM manipulation
+  - Local storage integration
+
+---
+
+## 🎨 Design Highlights
+
+- Colorful gradient backgrounds and card-based layout.
+- Smooth slide-in/slide-out animations for task interactions.
+- Interactive buttons with scale and shadow effects.
+- Mobile-first responsive design with touch-friendly controls.
+
+---
+
+## ⚙️ Core Functionality
+
+Users can:
+- Add tasks using an input field.
+- Toggle task completion via checkboxes.
+- Delete individual tasks.
+- Clear all completed tasks at once.
+
+The app maintains state across sessions and provides **instant visual feedback** for all interactions.
+
+---
