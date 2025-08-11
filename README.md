@@ -122,3 +122,32 @@ A complete web application with REST API for managing a collection of books usin
 - 🔔 **User-friendly notifications** and feedback  
 
 ---
+### Task 4 - 📱 Mobile-Friendly Website with CSS Media Queries
+Created a responsive website that transforms from desktop-only to mobile-friendly using **CSS media queries**.  
+This implementation demonstrates key responsive design principles.
+
+### ✨ Key Features
+- 📂 **Responsive Navigation** – Desktop horizontal menu converts to mobile hamburger menu  
+- 🖼 **Flexible Grid Layouts** – Multi-column layouts stack vertically on smaller screens  
+- 📏 **Scalable Images** – Images resize proportionally within containers using `max-width: 100%`  
+- 🔤 **Typography Scaling** – Font sizes reduce appropriately for mobile readability  
+- 👆 **Touch-Friendly Elements** – Buttons and interactive areas sized for mobile touch
+  
+### 📐 Media Query Breakpoints
+- 🖥 **Desktop:** `1200px+`  
+- 💻 **Laptop:** `1024px`  
+- 📱 **Tablet:** `768px`  
+- 📞 **Mobile:** `480px and below`  
+
+### 🎨 CSS Techniques Used
+- 🧩 **Flexbox** and **CSS Grid** for flexible layouts  
+- 📏 **Relative units** (`%`, `rem`, `vw`, `vh`) instead of fixed pixels  
+- 📲 **Mobile-first** approach with progressive enhancement  
+- 🌐 **Viewport meta tag** for proper mobile rendering  
+
+### 🧪 Testing
+Use **Chrome DevTools Device Toolbar** to test responsiveness across different screen sizes.  
+The layout automatically adapts from a **6-column desktop grid** to a **single-column mobile layout**.
+
+---
+
