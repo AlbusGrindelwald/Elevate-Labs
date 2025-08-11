@@ -122,7 +122,7 @@ A complete web application with REST API for managing a collection of books usin
 - 🔔 **User-friendly notifications** and feedback  
 
 ---
-### Task 4 - 📱 Mobile-Friendly Website with CSS Media Queries
+# Task 4 - 📱 Mobile-Friendly Website with CSS Media Queries
 Created a responsive website that transforms from desktop-only to mobile-friendly using **CSS media queries**.  
 This implementation demonstrates key responsive design principles.
 
