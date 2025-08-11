@@ -76,3 +76,50 @@ Users can:
 The app maintains state across sessions and provides **instant visual feedback** for all interactions.
 
 ---
+# Task 3 - 📚 Books Management Website
+A complete web application with REST API for managing a collection of books using **Node.js**, **Express.js**, and **vanilla JavaScript** frontend.
+
+## ✨ Features
+
+### 🖥 Backend (REST API)
+- 🛠 **Complete CRUD operations** (Create, Read, Update, Delete)  
+- 💾 **In-memory storage** (data persists during server runtime)  
+- ✅ **Input validation** and comprehensive error handling  
+- 🌐 **RESTful API design** with proper HTTP status codes  
+- 📦 **JSON request/response format**  
+- 🔗 **CORS enabled** for cross-origin requests  
+
+### 🎨 Frontend (Web Interface)
+- 🖌 **Modern, responsive design** with gradient backgrounds  
+- ⚡ **Interactive book management** with real-time updates  
+- ✅ **Form validation** and user feedback  
+- 🔔 **Toast notifications** for user actions  
+- 📄 **API documentation** display  
+- 📱 **Mobile-friendly** responsive layout  
+
+### 🏗 Implementation Overview
+
+- 🖥 **Express.js REST API** – CRUD endpoints for book management  
+- 💾 **In-Memory Storage** – JavaScript array stores book objects (no database)  
+- 🌐 **Web Interface** – HTML/CSS/JS frontend for easy book management  
+- 🔗 **CORS & Validation** – Cross-origin support with input validation  
+**Core Concepts:**  
+- 🌐 **REST API** design principles  
+- 🛣 **Express.js** routing and middleware  
+- 📡 **HTTP methods** (GET, POST, PUT, DELETE)  
+- 📦 **JSON** data handling  
+- 🛠 **CRUD operations** implementation  
+- ❗ **Error handling** and validation  
+- 📱 **Responsive web design**  
+- ⚡ **Asynchronous JavaScript** with async/await  
+- 🖲 **DOM manipulation** and event handling  
+
+### 🧑‍💻 Development Features
+
+- ♻ **Hot reload** with nodemon (`npm install -g nodemon` → `nodemon server.js`)  
+- 📝 **Console logging** for request monitoring  
+- 🐞 **Comprehensive error messages** for debugging  
+- ✅ **Input validation** on both frontend and backend  
+- 🔔 **User-friendly notifications** and feedback  
+
+---
