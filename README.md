@@ -79,7 +79,7 @@ The app maintains state across sessions and provides **instant visual feedback**
 # Task 3 - 📚 Books Management Website
 A complete web application with REST API for managing a collection of books using **Node.js**, **Express.js**, and **vanilla JavaScript** frontend.
 
-## ✨ Features
+### ✨ Features
 ### 🖥 Backend (REST API)
 - 🛠 **Complete CRUD operations** (Create, Read, Update, Delete)  
 - 💾 **In-memory storage** (data persists during server runtime)  
@@ -101,8 +101,9 @@ A complete web application with REST API for managing a collection of books usin
 - 🖥 **Express.js REST API** – CRUD endpoints for book management  
 - 💾 **In-Memory Storage** – JavaScript array stores book objects (no database)  
 - 🌐 **Web Interface** – HTML/CSS/JS frontend for easy book management  
-- 🔗 **CORS & Validation** – Cross-origin support with input validation  
-**Core Concepts:**  
+- 🔗 **CORS & Validation** – Cross-origin support with input validation
+   
+  ### Core Concepts:  
 - 🌐 **REST API** design principles  
 - 🛣 **Express.js** routing and middleware  
 - 📡 **HTTP methods** (GET, POST, PUT, DELETE)  
