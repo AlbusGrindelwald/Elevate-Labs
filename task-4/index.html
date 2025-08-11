@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechFlow - Responsive Design Demo</title>
+    <link rel="stylesheet" href="src/styles.css">
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <h2>TechFlow</h2>
+        </div>
+        <button class="nav-toggle" id="nav-toggle">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <ul class="nav-menu" id="nav-menu">
+          <li class="nav-item">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="hero-container">
+          <div class="hero-content">
+            <h1>Responsive Web Design Concepts</h1>
+            <p>Learn how media queries, viewport settings, and CSS units work together to create mobile-friendly websites that adapt to any screen size.</p>
+            <div class="hero-buttons">
+              <button class="btn btn-primary">Explore Concepts</button>
+              <button class="btn btn-secondary">View Examples</button>
+            </div>
+          </div>
+          <div class="hero-image">
+            <img src="https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Modern workspace" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Key Concepts Section -->
+      <section class="concepts">
+        <div class="container">
+          <h2>Key Responsive Design Concepts</h2>
+          <div class="concepts-grid">
+            <div class="concept-card">
+              <div class="concept-icon">📱</div>
+              <h3>Media Queries</h3>
+              <p>CSS rules that apply styles based on device characteristics like screen width, height, and orientation.</p>
+              <div class="code-example">
+                <code>@media (max-width: 768px) { ... }</code>
+              </div>
+            </div>
+            <div class="concept-card">
+              <div class="concept-icon">🖥️</div>
+              <h3>Viewport</h3>
+              <p>The visible area of a web page. Viewport meta tag controls how content is displayed on mobile devices.</p>
+              <div class="code-example">
+                <code>&lt;meta name="viewport" content="width=device-width"&gt;</code>
+              </div>
+            </div>
+            <div class="concept-card">
+              <div class="concept-icon">📏</div>
+              <h3>CSS Units</h3>
+              <p>Flexible units like %, rem, vw, vh that scale with screen size instead of fixed pixel values.</p>
+              <div class="code-example">
+                <code>width: 100%; font-size: 1.2rem; height: 50vh;</code>
+              </div>
+            </div>
+            <div class="concept-card">
+              <div class="concept-icon">🎯</div>
+              <h3>Breakpoints</h3>
+              <p>Specific screen widths where layout changes occur to optimize for different device sizes.</p>
+              <div class="code-example">
+                <code>320px, 768px, 1024px, 1200px</code>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Live Examples Section -->
+      <section class="examples">
+        <div class="container">
+          <h2>Live Responsive Examples</h2>
+          
+          <!-- CSS Units Demo -->
+          <div class="example-section">
+            <h3>CSS Units in Action</h3>
+            <div class="units-demo">
+              <div class="unit-box pixel-box">
+                <span class="unit-label">Fixed: 200px</span>
+              </div>
+              <div class="unit-box percent-box">
+                <span class="unit-label">Fluid: 50%</span>
+              </div>
+              <div class="unit-box viewport-box">
+                <span class="unit-label">Viewport: 30vw</span>
+              </div>
+              <div class="unit-box rem-box">
+                <span class="unit-label">Scalable: 12rem</span>
+              </div>
+            </div>
+            <p class="example-note">Resize your browser to see how different units behave!</p>
+          </div>
+
+          <!-- Breakpoint Visualization -->
+          <div class="example-section">
+            <h3>Media Query Breakpoints</h3>
+            <div class="breakpoint-indicator">
+              <div class="breakpoint-info">
+                <span class="current-size">Current screen: <span id="screen-width">0</span>px</span>
+                <span class="current-breakpoint" id="current-breakpoint">Desktop</span>
+              </div>
+              <div class="breakpoint-bars">
+                <div class="breakpoint-bar mobile" data-size="320px">Mobile</div>
+                <div class="breakpoint-bar tablet" data-size="768px">Tablet</div>
+                <div class="breakpoint-bar laptop" data-size="1024px">Laptop</div>
+                <div class="breakpoint-bar desktop" data-size="1200px">Desktop</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Responsive Grid Demo -->
+          <div class="example-section">
+            <h3>Responsive Grid Layout</h3>
+            <div class="responsive-grid">
+              <div class="grid-item">1</div>
+              <div class="grid-item">2</div>
+              <div class="grid-item">3</div>
+              <div class="grid-item">4</div>
+              <div class="grid-item">5</div>
+              <div class="grid-item">6</div>
+            </div>
+            <p class="example-note">Grid automatically adjusts columns based on screen size</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Features Section -->
+      <section class="features">
+        <div class="container">
+          <h2>Responsive Design Benefits</h2>
+          <div class="features-grid">
+            <div class="feature-card">
+              <div class="feature-icon">📱</div>
+              <h3>Mobile-First</h3>
+              <p>Design starts with mobile devices, then progressively enhances for larger screens using media queries.</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">🔧</div>
+              <h3>Flexible Units</h3>
+              <p>Using %, rem, vw, vh instead of fixed pixels creates layouts that adapt to any screen size automatically.</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">⚡</div>
+              <h3>Better UX</h3>
+              <p>Responsive design ensures optimal user experience across all devices, improving engagement and accessibility.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Portfolio Section -->
+      <section class="portfolio">
+        <div class="container">
+          <h2>Recent Projects</h2>
+          <div class="portfolio-grid">
+            <div class="portfolio-item">
+              <img src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=600" alt="E-commerce website" />
+              <div class="portfolio-overlay">
+                <h4>E-commerce Platform</h4>
+                <p>Full-stack online store</p>
+              </div>
+            </div>
+            <div class="portfolio-item">
+              <img src="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Corporate website" />
+              <div class="portfolio-overlay">
+                <h4>Corporate Website</h4>
+                <p>Professional business site</p>
+              </div>
+            </div>
+            <div class="portfolio-item">
+              <img src="https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Mobile app" />
+              <div class="portfolio-overlay">
+                <h4>Mobile Application</h4>
+                <p>Cross-platform mobile app</p>
+              </div>
+            </div>
+            <div class="portfolio-item">
+              <img src="https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Dashboard" />
+              <div class="portfolio-overlay">
+                <h4>Analytics Dashboard</h4>
+                <p>Data visualization platform</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="contact">
+        <div class="container">
+          <div class="contact-content">
+            <div class="contact-info">
+              <h2>Get In Touch</h2>
+              <p>Ready to start your next project? We'd love to hear from you.</p>
+              <div class="contact-details">
+                <div class="contact-item">
+                  <strong>Email:</strong> hello@techflow.com
+                </div>
+                <div class="contact-item">
+                  <strong>Phone:</strong> +1 (555) 123-4567
+                </div>
+                <div class="contact-item">
+                  <strong>Address:</strong> 123 Tech Street, Digital City, DC 12345
+                </div>
+              </div>
+            </div>
+            <div class="contact-form">
+              <form>
+                <div class="form-row">
+                  <input type="text" placeholder="Your Name" class="form-input" />
+                  <input type="email" placeholder="Your Email" class="form-input" />
+                </div>
+                <input type="text" placeholder="Subject" class="form-input" />
+                <textarea placeholder="Your Message" class="form-textarea" rows="5"></textarea>
+                <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>TechFlow</h3>
+            <p>Creating digital experiences that matter.</p>
+          </div>
+          <div class="footer-section">
+            <h4>Services</h4>
+            <ul>
+              <li><a href="#">Web Design</a></li>
+              <li><a href="#">Development</a></li>
+              <li><a href="#">Mobile Apps</a></li>
+              <li><a href="#">Consulting</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Our Team</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Connect</h4>
+            <ul>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">LinkedIn</a></li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">GitHub</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 TechFlow. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="src/script.js"></script>
+  </body>
+</html>
