@@ -80,7 +80,6 @@ The app maintains state across sessions and provides **instant visual feedback**
 A complete web application with REST API for managing a collection of books using **Node.js**, **Express.js**, and **vanilla JavaScript** frontend.
 
 ## ✨ Features
-
 ### 🖥 Backend (REST API)
 - 🛠 **Complete CRUD operations** (Create, Read, Update, Delete)  
 - 💾 **In-memory storage** (data persists during server runtime)  
